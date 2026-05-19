@@ -9,7 +9,7 @@ Le montage a été fait avec une **Freenove Breakout Board pour Raspberry Pi Pic
 ## Matériel utilisé
 
 - Raspberry Pi Pico WH
-- Freenove Breakout Board pour Raspberry Pi Pico
+- Freenove Breakout Board pour Raspberry Pi Pico 1 / 2 / W / H / WH
 - Logic analyzer 24 MHz / 8 CH
 - Câbles Dupont
 - Thonny avec MicroPython
@@ -38,7 +38,7 @@ Sur mon analyseur logique, les broches sont nommées `CH1` à `CH8`, avec une br
 
 Dans mon cas, `CND` correspond à la masse, donc à `GND`.
 
-| Logic analyzer | PulseView | Raspberry Pi Pico | Rôle prévu |
+| Logic analyzer | PulseView | Raspberry Pi Pico WH | Rôle prévu |
 | --- | --- | --- | --- |
 | CND | GND | GND | Masse commune |
 | CH1 | D0 | GP4 | I2C SDA |
